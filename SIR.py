@@ -8,7 +8,7 @@ import pandas as pd
 
 
 # Read in csv data
-fname = "/Users/dzine/Downloads/E19/Final Project/E19 - MasterData.csv"
+fname = "data/E19 - MasterData.csv"
 df = pd.read_csv(fname, header=0, usecols=[
                  "PA_POP", "Days after 10-01-2020", "Confirmed", "Deaths", "Recovered", "Active"])
 
